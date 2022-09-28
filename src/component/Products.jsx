@@ -5,7 +5,7 @@ function Products(props){
     const ele=props.ele;
     const ind=props.ind;
     return(
-        <div key={props.ind} className="rounded-lg w-72 m-5 border-2 border-slate-400">
+        <div key={props.ind} className="rounded-lg w-72 m-5 border-2 border-slate-400 hover:border-gray-500   ">
           <Link to={`/product/${ele?.id}`}>
 
               <div>

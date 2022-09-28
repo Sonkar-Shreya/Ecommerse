@@ -16,13 +16,13 @@ function Product(){
   return(
     <div className="bg-gray-100 mt-20 ">
       
-        <div className="flex justify-center flex-wrap w-11/12 mx-auto">
+        <div className="flex justify-center flex-wrap w-11/12 mx-auto ">
         {
 
         data?.products?.map((element,index)=>{
           return(
            
-            <div key={index}>
+            <div key={index} >
              <Products ele={element} ind={index} />
             </div>
           )
